@@ -22,3 +22,7 @@ form{
 img{
     width: 350px;
 }
+a{
+    color:#222;
+    background-color: rgb(226, 226, 226);
+}
