@@ -1,0 +1,67 @@
+body{
+    margin:0;
+}
+
+h1{
+    background-color: #333;
+    margin:0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 10px solid #333;
+}
+
+#logoutbutton{
+    background-color: rgb(255, 85, 85);
+    font-size: large;
+}
+
+#games{
+    display:flex;
+}
+
+ul{
+    list-style-type: none;
+    color:aliceblue;
+    
+}
+
+#recent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    justify-content: center;
+    column-gap: 150px;
+    row-gap: 100px;
+    margin: 0;
+    padding:0;
+    background-color: #464444;
+    border: 10px solid #464444;
+}
+
+#recent li img{
+    width: 400px;
+}
+
+#recent li img:hover{
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
+#library{
+    background-color: #5A5858;
+    margin:0;
+    padding: 0;
+    border: 10px solid #5A5858;
+    line-height: 120%;
+    width:300px;
+}
+
+#library li button{
+    width: 100%;
+    text-align: left;
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #5A5858;
+    color:aliceblue;
+}

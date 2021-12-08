@@ -1,0 +1,24 @@
+body{
+    background-color: #333;
+    margin: 0 auto;
+}
+
+#signin{
+    text-align: center;
+}
+
+form{
+    background-color: #464444;
+    display:inline-block;
+    text-align: center;
+    font-size: 15pt;
+    border: 50px solid #464444;
+}
+
+#logo{
+    margin: 50px auto;
+    text-align: center;
+}
+img{
+    width: 350px;
+}
